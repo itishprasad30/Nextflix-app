@@ -12,6 +12,7 @@ const Thumbnail = ({ movie }: Props) => {
   const [showModal, setShowModal] = useRecoilState(modalState)
   return (
     <div
+      title={movie?.title || movie.original_name}
       className={`relative h-28 min-w-[180px] cursor-pointer transition duration-200 ease-out md:h-36 md:min-w-[260px] md:hover:scale-105`}
       onClick={() => {
         setCurrentMovie(movie)
@@ -25,7 +26,7 @@ const Thumbnail = ({ movie }: Props) => {
         className="rounded-sm object-cover md:rounded"
         layout="fill"
       />
-      <h2 className="absolute bottom-2 text-2xl font-semibold">
+      <h2 className="absolute bottom-2 ml-2 text-2xl font-semibold text-white">
         {movie?.title || movie.original_name}
       </h2>
     </div>
