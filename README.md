@@ -1,4 +1,11 @@
-# Next.js + Tailwind CSS Example
+# Netflex movie trailer app
+
+- Typescript
+- Nextjs
+- React 18
+- Tailwind css
+- REcoil
+- firebase
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
